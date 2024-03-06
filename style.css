@@ -1,0 +1,33 @@
+body {
+    background-color: #151922;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.inner-frame {
+    background-color: #282C35;
+    margin: 25px auto;
+    width: 1800px;
+    height: 860px;
+    border-radius: 25px;
+    padding: 5px 25px 0px 25px;
+    color: white;
+}
+.navigation-bar {
+    overflow: hidden;
+    background-color: #282C35;
+    margin: 25px 60px 25px 60px;
+    padding: 20px;
+    border-radius: 25px;
+}   
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px -15px 15px;
+    vertical-align: middle;
+}
+.navigation-bar a:hover {
+    background-color:  #151922;
+    padding: 10px;
+    border-radius: 18px;
+    transition: all .2s ease-in-out;
+}
